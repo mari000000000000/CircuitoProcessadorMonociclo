@@ -1,0 +1,41 @@
+# hades.models.Design file
+#  
+[name] UnidadeControleULA
+[components]
+hades.models.gates.And2 i7 12600 4800 @N 1001 1.0E-8
+hades.models.gates.InvSmall i6 15000 7200 @N 1001 5.0E-9
+hades.models.gates.InvSmall i5 15000 8400 @N 1001 5.0E-9
+hades.models.gates.Or2 i3 8400 11400 @N 1001 1.0E-8
+hades.models.rtlib.io.MergeBits i2 22200 11400 @N 1001 4 1.0E-8
+hades.models.rtlib.io.ExpanderVertical i1 9000 1200 @N 1001 2 1.0E-8
+hades.models.rtlib.io.ExpanderVertical i0 4200 6600 @N 1001 6 1.0E-8
+hades.models.rtlib.io.OpinVector ALUControl 24600 13800 @N 1001 4 1.0E-9 2
+hades.models.rtlib.io.IpinVector ALUOp 15000 -600 @N 1001 2 00_B 1.0E-9 2
+hades.models.gates.InvSmall i10 14400 1200 @N 1001 5.0E-9
+hades.models.gates.And2 OPERA\u00c7\u00c3O_3 16800 1200 @N 1001 1.0E-8
+hades.models.gates.Or2 OPERA\u00c7\u00c3O_2 16800 4200 @N 1001 1.0E-8
+hades.models.gates.Or2 OPERA\u00c7\u00c3O_1 17400 7200 @N 1001 1.0E-8
+hades.models.rtlib.io.IpinVector F 7800 2400 @N 1001 6 010000_B 1.0E-9 2
+hades.models.gates.And2 OPERA\u00c7\u00c3O_0 12600 9600 @N 1001 1.0E-8
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n9 2 i0 Y1 i7 B 3 2 5400 9600 11400 9600 2 11400 9600 11400 6600 2 11400 6600 12600 6600 0 
+hades.signals.SignalStdLogic1164 n8 4 i1 Y1 i7 A i6 A OPERAÇÃO_0 A 7 2 12600 5400 12000 5400 2 15000 7800 12000 7800 2 12600 10200 12000 10200 2 12000 1800 10200 1800 2 12000 10200 12000 7800 2 12000 1800 12000 5400 2 12000 7800 12000 5400 2 12000 5400 12000 7800 
+hades.signals.SignalStdLogic1164 n7 2 i5 Y OPERAÇÃO_1 B 1 2 16800 9000 17400 9000 0 
+hades.signals.SignalStdLogic1164 n6 2 i6 Y OPERAÇÃO_1 A 1 2 16800 7800 17400 7800 0 
+hades.signals.SignalStdLogic1164 n5 2 i0 Y2 i5 A 1 2 15000 9000 5400 9000 0 
+hades.signals.SignalStdLogicVector n4 2 2 ALUOp Y i1 A 3 2 9600 1200 9600 600 2 9600 600 15000 600 2 15000 600 15000 -600 0 
+hades.signals.SignalStdLogic1164 n3 2 i3 Y OPERAÇÃO_0 B 2 2 12000 12600 12000 11400 2 12000 11400 12600 11400 0 
+hades.signals.SignalStdLogic1164 n17 2 OPERAÇÃO_3 Y i2 A3 2 2 20400 2400 22800 2400 2 22800 2400 22800 11400 0 
+hades.signals.SignalStdLogic1164 n2 2 i0 Y3 i3 A 2 2 5400 8400 8400 8400 2 8400 8400 8400 12000 0 
+hades.signals.SignalStdLogic1164 n16 2 OPERAÇÃO_2 Y i2 A2 2 2 20400 5400 23400 5400 2 23400 5400 23400 11400 0 
+hades.signals.SignalStdLogic1164 n1 2 i0 Y0 i3 B 3 2 8400 13200 6000 13200 2 6000 13200 6000 10200 2 6000 10200 5400 10200 0 
+hades.signals.SignalStdLogic1164 n15 2 OPERAÇÃO_1 Y i2 A1 2 2 21000 8400 24000 8400 2 24000 8400 24000 11400 0 
+hades.signals.SignalStdLogicVector n0 6 2 F Y i0 A 4 2 7800 2400 8400 2400 2 8400 2400 8400 6000 2 8400 6000 4800 6000 2 4800 6000 4800 6600 0 
+hades.signals.SignalStdLogic1164 n14 2 OPERAÇÃO_0 Y i2 A0 2 2 16200 10800 24600 10800 2 24600 10800 24600 11400 0 
+hades.signals.SignalStdLogicVector n13 4 2 i2 Y ALUControl A 2 2 22800 12600 22800 13800 2 22800 13800 24600 13800 0 
+hades.signals.SignalStdLogic1164 n12 4 i1 Y0 OPERAÇÃO_3 B OPERAÇÃO_2 A i10 A 6 2 16800 3000 16800 4800 2 16800 3000 13800 3000 2 13800 3000 13800 2400 2 10200 2400 13800 2400 2 13800 2400 13800 1800 2 13800 1800 14400 1800 2 16800 3000 13800 2400 
+hades.signals.SignalStdLogic1164 n11 2 i10 Y OPERAÇÃO_3 A 1 2 16200 1800 16800 1800 0 
+hades.signals.SignalStdLogic1164 n10 2 i7 Y OPERAÇÃO_2 B 1 2 16200 6000 16800 6000 0 
+[end signals]
+[end]

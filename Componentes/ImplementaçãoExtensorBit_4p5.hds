@@ -1,0 +1,13 @@
+# hades.models.Design file
+#  
+[name] unnamed
+[components]
+hades.models.rtlib.io.OpinVector i1 16200 6000 @N 1001 5 1.0E-9 2
+hades.models.rtlib.io.IpinVector i0 10200 6000 @N 1001 4 1000_B 1.0E-9 2
+hades.models.Design ExtensorBit2 10800 5400 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC1/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/ExtensorBit2.hds
+[end components]
+[signals]
+hades.signals.SignalStdLogicVector n1 5 2 ExtensorBit2 5_bits i1 A 1 2 15600 6000 16200 6000 0 
+hades.signals.SignalStdLogicVector n0 4 2 i0 Y ExtensorBit2 4_bits 1 2 10200 6000 10800 6000 0 
+[end signals]
+[end]

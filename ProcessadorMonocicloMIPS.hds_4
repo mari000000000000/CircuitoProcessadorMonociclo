@@ -1,0 +1,99 @@
+# hades.models.Design file
+#  
+[name] unnamed
+[components]
+hades.models.gates.InvSmall i20 42600 12600 @N 1001 5.0E-9
+hades.models.rtlib.io.Subset INSTRU\u00c7\u00c3O\u005b15-0\u005d 25800 6600 @XY 1001 32 15 0 UUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.Design unnamed 21000 -9600 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/Implementa\u00e7\u00e3oUnidadeControlePrincipal.hds
+hades.models.io.Gnd i9 51600 2400 @Y 1001
+hades.models.rtlib.io.ExpanderVertical i8 26400 -15000 @N 1001 6 1.0E-8
+hades.models.rtlib.memory.MipsRegBank i7 39600 -6600 @N 1001 32 32 
+hades.models.rtlib.muxes.Mux21 i6 31200 -1200 @Y 1001 5 UUUUU_B 1.0E-8
+hades.models.rtlib.memory.ROM i5 19200 13200 @Y 1001 1024 32 
+hades.models.rtlib.register.Reg PC 3600 9600 @N 1001 32 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX_B 1.0E-8
+hades.models.rtlib.io.Subset i4 17400 12000 @Y 1001 32 9 0 XXXXXXXXXX_B 1.0E-8
+hades.models.io.ClockGen i3 0 9600 @N 1001 1.0 0.5 0.0 null
+hades.models.rtlib.io.IpinVector i2 10800 8400 @N 1001 32 00000000000000000000000000000100_B 1.0E-9 0
+hades.models.rtlib.arith.Add i1 11400 7800 @Y 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.Design ExtensorBit2 40200 3600 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC1/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/ExtensorBit2.hds
+hades.models.gates.InvSmall i19 40200 11400 @N 1001 5.0E-9
+hades.models.rtlib.io.Subset INSTRU\u00c7\u00c3O\u005b20-16\u005d 25800 600 @XY 1001 32 20 16 UUUUU_B 1.0E-8
+hades.models.gates.InvSmall i18 42600 9600 @N 1001 5.0E-9
+hades.models.gates.InvSmall i17 35400 -12600 @N 1001 5.0E-9
+hades.models.Design Implementa\u00e7\u00e3oExtensorBit 31800 6600 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/ExtensorBit.hds
+hades.models.gates.InvSmall i16 33000 -6000 @N 1001 5.0E-9
+hades.models.rtlib.memory.RAMoe i15 45000 9000 @N 1001 1024 32 
+hades.models.Design Implementa\u00e7\u00e3oExtensorBit1 31800 6600 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC1/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/ExtensorBit.hds
+hades.models.rtlib.io.MergeBits i14 37200 -7800 @N 1001 2 1.0E-8
+hades.models.Design unnamed14 22200 -5400 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/Implementa\u00e7\u00e3oUnidadeControleULA.hds
+hades.models.rtlib.muxes.Mux21 i13 49800 16800 @X 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.Design unnamed13 21000 -6600 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/Implementa\u00e7\u00e3oUnidadeControleULA.hds
+hades.models.rtlib.muxes.Mux21 i12 39600 1800 @Y 1001 32 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.Design unnamed12 21000 -9600 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/Implementa\u00e7\u00e3oUnidadeControleULA.hds
+hades.models.rtlib.arith.DcoreALU i11 46200 3000 @N 1001 32 1.0E-8 24 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+hades.models.Design unnamed11 21000 -9600 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/Implementa\u00e7\u00e3oUnidadeControleULA.hds
+hades.models.rtlib.arith.ShiftLeft i10 21000 -13800 @N 1001 32 2 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU_B 1.0E-8
+hades.models.Design unnamed10 21000 -9600 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/Implementa\u00e7\u00e3oUnidadeControleULA.hds
+hades.models.rtlib.io.Subset INSTRU\u00c7\u00c3O\u005b5-0\u005d 31200 4800 @Y 1001 16 5 0 UUUUUU_B 1.0E-8
+hades.models.Design unnamed9 28200 -7800 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/Implementa\u00e7\u00e3oUnidadeControleULA.hds
+hades.models.Design UnidadeControlePrincipal1 29400 -15000 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC1/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/UnidadeControlePrincipal.hds
+hades.models.Design unnamed8 28200 -7800 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/Implementa\u00e7\u00e3oUnidadeControleULA.hds
+hades.models.Design unnamed7 27600 -9600 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/Implementa\u00e7\u00e3oUnidadeControleULA.hds
+hades.models.Design unnamed6 27600 -9600 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/Implementa\u00e7\u00e3oUnidadeControleULA.hds
+hades.models.Design FlagZero 49200 6600 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC1/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/FlagZero.hds
+hades.models.Design unnamed5 27600 -9600 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/Implementa\u00e7\u00e3oUnidadeControleULA.hds
+hades.models.rtlib.io.Subset INSTRU\u00c7\u00c3O_\u005b31-26\u005d 25800 -5400 @XY 1001 32 31 26 UUUUUU_B 1.0E-8
+hades.models.Design unnamed4 27000 -9600 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/Implementa\u00e7\u00e3oUnidadeControleULA.hds
+hades.models.Design unnamed3 24000 -9600 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/Implementa\u00e7\u00e3oUnidadeControleULA.hds
+hades.models.Design unnamed2 24000 -9600 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/Implementa\u00e7\u00e3oUnidadeControleULA.hds
+hades.models.rtlib.io.Subset INSTRU\u00c7\u00c3O_\u005b25-21\u005d 25800 -2400 @XY 1001 32 25 21 UUUUU_B 1.0E-8
+hades.models.Design unnamed1 22800 -9600 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/Implementa\u00e7\u00e3oUnidadeControleULA.hds
+hades.models.Design UnidadeControleULA2 33600 2400 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC1/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/UnidadeControleULA.hds
+hades.models.Design UnidadeControleULA1 39000 7800 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/UnidadeControleULA.hds
+hades.models.Design UnidadeControleULA 33600 2400 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/UnidadeControleULA.hds
+hades.models.Design UnidadeControlePrincipal 30000 -15000 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/UnidadeControlePrincipal.hds
+hades.models.rtlib.io.Subset INSTRU\u00c7\u00c3O\u005b15-11\u005d 25800 3600 @XY 1001 32 15 11 UUUUU_B 1.0E-8
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n39 4 i3 clk i18 A i16 A PC CLK 8 2 42600 10200 3000 10200 2 33000 -5400 28200 -5400 2 28200 -5400 28200 -4200 2 28200 -4200 3000 -4200 2 2400 10800 3000 10800 2 3600 10800 3000 10800 2 3000 -4200 3000 10200 2 3000 10800 3000 10200 2 3000 10200 3000 10800 
+hades.signals.SignalStdLogic1164 n38 2 i20 Y i15 nOE 2 2 44400 13200 44400 12600 2 44400 12600 45000 12600 0 
+hades.signals.SignalStdLogic1164 n37 2 i19 Y i15 nWE 1 2 42000 12000 45000 12000 0 
+hades.signals.SignalStdLogic1164 n35 2 i17 Y i7 nWE 4 2 37200 -12000 37800 -12000 2 37800 -12000 41400 -12000 2 41400 -12000 41400 -4800 2 41400 -4800 39600 -4800 0 
+hades.signals.SignalStdLogic1164 n34 2 i16 Y i7 nCS 1 2 39600 -5400 34800 -5400 0 
+hades.signals.SignalStdLogic1164 n33 2 i18 Y i15 nCS 2 2 44400 10200 44400 10800 2 44400 10800 45000 10800 0 
+hades.signals.SignalStdLogicVector n32 32 3 i7 DR1 i12 A0 i15 DIN 7 2 48600 9000 48600 8400 2 48600 8400 45600 8400 2 45600 8400 45600 3000 2 45600 3000 44400 3000 2 42000 1800 42000 3000 2 42000 3000 44400 3000 2 44400 3000 44400 -1800 1 44400 3000 
+hades.signals.SignalStdLogicVector n31 32 2 i13 Y i7 DW0 5 2 48000 18600 48000 19200 2 48000 19200 55200 19200 2 55200 19200 55200 -7200 2 55200 -7200 42000 -7200 2 42000 -7200 42000 -6600 0 
+hades.signals.SignalStdLogicVector n30 32 2 i11 Y FlagZero ALU_Result 2 2 48600 5400 48600 7200 2 48600 7200 49200 7200 0 
+hades.signals.SignalStdLogic1164 n29 1 i13 S 3 2 34200 -12600 55800 -12600 2 55800 -12600 55800 18000 2 55800 18000 49800 18000 0 
+hades.signals.SignalStdLogic1164 n28 2 UnidadeControlePrincipal1 RegDst i6 S 5 2 34200 -14400 36000 -14400 2 36000 -14400 36000 -4800 2 36000 -4800 30600 -4800 2 30600 -4800 30600 -2400 2 30600 -2400 31200 -2400 0 
+hades.signals.SignalStdLogicVector n27 32 2 i15 DOUT i13 A1 1 2 48600 16800 48600 13800 0 
+hades.signals.SignalStdLogicVector n26 4 2 UnidadeControleULA2 ALUControl ExtensorBit2 4_bits 3 2 40200 4200 39000 4200 2 39000 4200 39000 3000 2 39000 3000 38400 3000 0 
+hades.signals.SignalStdLogic1164 n25 3 i11 COUT i9 GND i11 CIN 5 2 48000 5400 48000 4800 2 48000 4800 50400 4800 2 50400 4800 50400 3000 2 51600 2400 50400 2400 2 50400 2400 50400 3000 1 50400 3000 
+hades.signals.SignalStdLogicVector n24 16 3 INSTRUÇÃO[15-0] Y INSTRUÇÃO[5-0] A ImplementaçãoExtensorBit1 16_bits 5 2 25800 6000 25800 5400 2 25800 5400 31200 5400 2 31200 7200 31800 7200 2 31200 4800 31200 5400 2 31200 7200 31200 5400 1 31200 5400 
+hades.signals.SignalStdLogicVector n23 5 2 ExtensorBit2 5_bits i11 OPC 1 2 45000 4200 46200 4200 0 
+hades.signals.SignalStdLogic1164 n22 2 UnidadeControlePrincipal1 RegWrite i17 A 1 2 34200 -12000 35400 -12000 0 
+hades.signals.SignalStdLogic1164 n21 2 UnidadeControlePrincipal1 ALUSrc i12 S 5 2 39600 600 39000 600 2 39000 600 39000 -2400 2 39000 -2400 36600 -2400 2 36600 -2400 36600 -13200 2 36600 -13200 34200 -13200 0 
+hades.signals.SignalStdLogicVector n20 6 2 INSTRUÇÃO[5-0] Y UnidadeControleULA2 F 2 2 31200 4200 31200 3600 2 31200 3600 33600 3600 0 
+hades.signals.SignalStdLogicVector n9 6 2 INSTRUÇÃO_[31-26] Y i8 A 3 2 25800 -6000 25800 -15600 2 25800 -15600 27000 -15600 2 27000 -15600 27000 -15000 0 
+hades.signals.SignalStdLogicVector n8 5 2 i6 Y i7 AW0 2 2 33000 -3000 33000 -4200 2 33000 -4200 39600 -4200 0 
+hades.signals.SignalStdLogicVector n7 32 2 ImplementaçãoExtensorBit1 32_bits i12 A1 2 2 40800 1800 40800 7200 2 40800 7200 36600 7200 0 
+hades.signals.SignalStdLogicVector n6 5 2 INSTRUÇÃO[15-11] Y i6 A1 3 2 25800 3000 25800 2400 2 25800 2400 32400 2400 2 32400 2400 32400 -1200 0 
+hades.signals.SignalStdLogicVector n5 5 2 INSTRUÇÃO_[25-21] Y i7 AR0 2 2 25800 -3000 25800 -3600 2 25800 -3600 39600 -3600 0 
+hades.signals.SignalStdLogicVector n4 32 6 i5 D INSTRUÇÃO_[31-26] A INSTRUÇÃO_[25-21] A INSTRUÇÃO[20-16] A INSTRUÇÃO[15-11] A INSTRUÇÃO[15-0] A 15 2 25800 -5400 25800 -4800 2 25800 -4800 22800 -4800 2 22800 -4800 22800 -1800 2 25800 -2400 25800 -1800 2 25800 -1800 22800 -1800 2 22800 -1800 22800 1200 2 25800 600 25800 1200 2 25800 1200 22800 1200 2 22800 1200 22800 4200 2 25800 3600 25800 4200 2 25800 4200 22800 4200 2 22800 4200 22800 7200 2 25800 6600 25800 7200 2 25800 7200 22800 7200 2 22800 7200 22800 8400 4 22800 7200 22800 4200 22800 -1800 22800 1200 
+hades.signals.SignalStdLogicVector n3 32 3 PC Q i1 B i4 A 5 2 17400 12000 17400 12600 2 17400 12600 15000 12600 2 5400 12000 5400 12600 2 5400 12600 15000 12600 2 15000 12600 15000 7800 1 15000 12600 
+hades.signals.SignalStdLogicVector n2 5 3 INSTRUÇÃO[20-16] Y i7 AR1 i6 A0 7 2 39600 -3000 36600 -3000 2 36600 -3000 36000 -3000 2 36000 -3000 36000 -600 2 36000 -600 33600 -600 2 25800 0 25800 -600 2 25800 -600 33600 -600 2 33600 -600 33600 -1200 1 33600 -600 
+hades.signals.SignalStdLogicVector n1 32 2 i2 Y i1 A 2 2 12600 7800 12600 8400 2 12600 8400 10800 8400 0 
+hades.signals.SignalStdLogicVector n0 10 1 i5 A 2 2 19200 10800 17400 10800 2 17400 10800 17400 11400 0 
+hades.signals.SignalStdLogicVector n19 32 2 i12 Y i11 A 3 2 41400 0 41400 -600 2 41400 -600 49800 -600 2 49800 -600 49800 3000 0 
+hades.signals.SignalStdLogicVector n18 32 2 i7 DR0 i11 B 3 2 42000 -1800 42000 -1200 2 42000 -1200 47400 -1200 2 47400 -1200 47400 3000 0 
+hades.signals.SignalStdLogic1164 n17 2 UnidadeControlePrincipal1 ALUOp1 i14 A1 2 2 34200 -9600 37800 -9600 2 37800 -9600 37800 -7800 0 
+hades.signals.SignalStdLogic1164 n16 2 UnidadeControlePrincipal1 ALUOp0 i14 A0 2 2 34200 -9000 38400 -9000 2 38400 -9000 38400 -7800 0 
+hades.signals.SignalStdLogic1164 n15 2 i8 Y0 UnidadeControlePrincipal1 Op0 1 2 27600 -11400 29400 -11400 0 
+hades.signals.SignalStdLogic1164 n14 2 i8 Y1 UnidadeControlePrincipal1 Op1 1 2 27600 -12000 29400 -12000 0 
+hades.signals.SignalStdLogic1164 n13 2 i8 Y2 UnidadeControlePrincipal1 Op2 1 2 27600 -12600 29400 -12600 0 
+hades.signals.SignalStdLogic1164 n12 2 i8 Y3 UnidadeControlePrincipal1 Op3 1 2 27600 -13200 29400 -13200 0 
+hades.signals.SignalStdLogicVector n44 2 2 i14 Y UnidadeControleULA2 ALUOp 4 2 37800 -6600 37800 600 2 37800 600 33000 600 2 33000 600 33000 3000 2 33000 3000 33600 3000 0 
+hades.signals.SignalStdLogic1164 n11 2 i8 Y4 UnidadeControlePrincipal1 Op4 1 2 27600 -13800 29400 -13800 0 
+hades.signals.SignalStdLogic1164 n10 2 i8 Y5 UnidadeControlePrincipal1 Op5 1 2 27600 -14400 29400 -14400 0 
+[end signals]
+[end]

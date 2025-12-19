@@ -1,0 +1,13 @@
+# hades.models.Design file
+#  
+[name] unnamed
+[components]
+hades.models.rtlib.io.OpinVectorLarge i1 34200 8400 @N 1001 28 1.0E-9 0
+hades.models.rtlib.io.IpinVectorLarge i0 18600 8400 @N 1001 26 00000000000000000000000010_B 1.0E-9 0
+hades.models.Design Implementa\u00e7\u00e3oExtensorBit26l28 23400 7800 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC1/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/ExtensorBit_26p28.hds
+[end components]
+[signals]
+hades.signals.SignalStdLogicVector n1 26 2 i0 Y ImplementaçãoExtensorBit26l28 26_bits 1 2 18600 8400 23400 8400 0 
+hades.signals.SignalStdLogicVector n0 28 2 ImplementaçãoExtensorBit26l28 28_bits i1 A 1 2 34200 8400 28200 8400 0 
+[end signals]
+[end]

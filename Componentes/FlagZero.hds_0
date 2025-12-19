@@ -1,0 +1,11 @@
+# hades.models.Design file
+#  
+[name] unnamed
+[components]
+hades.models.rtlib.io.IpinVectorLarge i1 15000 3000 @N 1001 32 00000000000000000000000000000000_B 1.0E-9 2
+hades.models.rtlib.io.ExpanderVertical i0 15600 3600 @N 1001 32 1.0E-8
+[end components]
+[signals]
+hades.signals.SignalStdLogicVector n0 32 2 i1 Y i0 A 2 2 15000 3000 16200 3000 2 16200 3000 16200 3600 0 
+[end signals]
+[end]

@@ -1,0 +1,18 @@
+# hades.models.Design file
+#  
+[name] ExtensorBit2
+[components]
+hades.models.rtlib.io.MergeBits i3 21600 10200 @X 1001 5 1.0E-8
+hades.models.rtlib.io.Expander i0 21000 7200 @X 1001 4 1.0E-8
+hades.models.rtlib.io.IpinVector 4_bits 19800 6000 @N 1001 4 1000_B 1.0E-9 2
+hades.models.rtlib.io.OpinVector 5_bits 21600 12600 @N 1001 5 1.0E-9 2
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n5 3 i0 Y3 i3 A4 i3 A3 4 2 21000 10200 21000 9600 2 21000 9600 20400 9600 2 20400 8400 20400 9600 2 20400 10200 20400 9600 1 20400 9600 
+hades.signals.SignalStdLogicVector n4 5 2 i3 Y 5_bits A 2 2 21000 11400 21000 12600 2 21000 12600 21600 12600 0 
+hades.signals.SignalStdLogic1164 n3 2 i0 Y2 i3 A2 1 2 19800 8400 19800 10200 0 
+hades.signals.SignalStdLogic1164 n2 2 i0 Y1 i3 A1 1 2 19200 8400 19200 10200 0 
+hades.signals.SignalStdLogic1164 n1 2 i0 Y0 i3 A0 1 2 18600 8400 18600 10200 0 
+hades.signals.SignalStdLogicVector n0 4 2 4_bits Y i0 A 2 2 19800 6000 20400 6000 2 20400 6000 20400 7200 0 
+[end signals]
+[end]

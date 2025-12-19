@@ -1,0 +1,41 @@
+# hades.models.Design file
+#  
+[name] unnamed
+[components]
+hades.models.io.Opin i8 30000 5400 @N 1001 5.0E-9
+hades.models.io.Opin i7 30000 4200 @N 1001 5.0E-9
+hades.models.io.Ipin i5 9000 12600 @N 1001  U
+hades.models.io.Ipin i4 9000 10200 @N 1001  U
+hades.models.io.Ipin i3 9000 8400 @N 1001  U
+hades.models.io.Ipin i2 9600 6600 @N 1001  U
+hades.models.io.Ipin i1 10200 5400 @N 1001  U
+hades.models.io.Ipin i0 10200 3600 @N 1001  U
+hades.models.io.Opin i16 30000 3000 @N 1001 5.0E-9
+hades.models.io.Opin i15 30000 13800 @N 1001 5.0E-9
+hades.models.io.Opin i14 30000 12600 @N 1001 5.0E-9
+hades.models.io.Opin i13 30000 11400 @N 1001 5.0E-9
+hades.models.io.Opin i12 30000 10200 @N 1001 5.0E-9
+hades.models.io.Opin i11 30000 9000 @N 1001 5.0E-9
+hades.models.Design UnidadeControlePrincipal 20400 4200 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/UnidadeControlePrincipal.hds
+hades.models.io.Opin i10 30000 7800 @N 1001 5.0E-9
+hades.models.io.Opin i9 30000 6600 @N 1001 5.0E-9
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n9 2 UnidadeControlePrincipal RegDst i16 A 3 2 30000 3000 28200 3000 2 28200 3000 28200 4800 2 28200 4800 25200 4800 0 
+hades.signals.SignalStdLogic1164 n8 2 UnidadeControlePrincipal Jump i7 A 5 2 25200 5400 28800 5400 2 28800 5400 28800 4800 2 28800 4800 29400 4800 2 29400 4800 29400 4200 2 29400 4200 30000 4200 0 
+hades.signals.SignalStdLogic1164 n7 2 UnidadeControlePrincipal ALUSrc i8 A 3 2 25200 6000 29400 6000 2 29400 6000 29400 5400 2 29400 5400 30000 5400 0 
+hades.signals.SignalStdLogic1164 n6 2 UnidadeControlePrincipal MemtoReg i9 A 1 2 25200 6600 30000 6600 0 
+hades.signals.SignalStdLogic1164 n5 2 UnidadeControlePrincipal RegWrite i10 A 3 2 30000 7800 28800 7800 2 28800 7800 28800 7200 2 28800 7200 25200 7200 0 
+hades.signals.SignalStdLogic1164 n4 2 UnidadeControlePrincipal MemRead i11 A 3 2 25200 7800 28200 7800 2 28200 7800 28200 9000 2 28200 9000 30000 9000 0 
+hades.signals.SignalStdLogic1164 n3 2 UnidadeControlePrincipal MemWrite i12 A 3 2 25200 8400 27600 8400 2 27600 8400 27600 10200 2 27600 10200 30000 10200 0 
+hades.signals.SignalStdLogic1164 n15 2 i5 Y UnidadeControlePrincipal Op0 3 2 20400 7800 14400 7800 2 14400 7800 14400 12600 2 14400 12600 9000 12600 0 
+hades.signals.SignalStdLogic1164 n2 2 UnidadeControlePrincipal Branch i13 A 3 2 25200 9000 27000 9000 2 27000 9000 27000 11400 2 27000 11400 30000 11400 0 
+hades.signals.SignalStdLogic1164 n14 2 i4 Y UnidadeControlePrincipal Op1 3 2 9000 10200 12600 10200 2 12600 10200 12600 7200 2 12600 7200 20400 7200 0 
+hades.signals.SignalStdLogic1164 n1 2 UnidadeControlePrincipal ALUOp1 i14 A 3 2 25200 9600 26400 9600 2 26400 9600 26400 12600 2 26400 12600 30000 12600 0 
+hades.signals.SignalStdLogic1164 n13 2 i3 Y UnidadeControlePrincipal Op2 3 2 20400 6600 11400 6600 2 11400 6600 11400 8400 2 11400 8400 9000 8400 0 
+hades.signals.SignalStdLogic1164 n0 2 UnidadeControlePrincipal ALUOp0 i15 A 3 2 25200 10200 25800 10200 2 25800 10200 25800 13800 2 25800 13800 30000 13800 0 
+hades.signals.SignalStdLogic1164 n12 2 i2 Y UnidadeControlePrincipal Op3 3 2 20400 6000 10800 6000 2 10800 6000 10800 6600 2 10800 6600 9600 6600 0 
+hades.signals.SignalStdLogic1164 n11 2 i1 Y UnidadeControlePrincipal Op4 1 2 20400 5400 10200 5400 0 
+hades.signals.SignalStdLogic1164 n10 2 i0 Y UnidadeControlePrincipal Op5 3 2 10200 3600 19800 3600 2 19800 3600 19800 4800 2 19800 4800 20400 4800 0 
+[end signals]
+[end]

@@ -1,0 +1,15 @@
+# hades.models.Design file
+#  
+[name] unnamed
+[components]
+hades.models.rtlib.io.IpinVectorLarge ALU_Result 15000 3000 @N 1001 32 00000000000000000000000000000111_B 1.0E-9 2
+hades.models.rtlib.compare.CompareEqual i2 14400 4200 @N 1001 32 U 1.0E-8
+hades.models.io.Opin i0 16800 9000 @N 1001 5.0E-9
+hades.models.rtlib.io.IpinVectorLarge ALU_FlagZero 17400 3000 @X 1001 32 00000000000000000000000000001101_B 1.0E-9 2
+[end components]
+[signals]
+hades.signals.SignalStdLogic1164 n2 0 2 2 16200 6000 16200 9000 2 16200 9000 16800 9000 0 
+hades.signals.SignalStdLogicVector n1 32 2 ALU_FlagZero Y i2 B 2 2 17400 3000 16800 3000 2 16800 3000 16800 4200 0 
+hades.signals.SignalStdLogicVector n0 32 2 ALU_Result Y i2 A 2 2 15000 3000 15600 3000 2 15600 3000 15600 4200 0 
+[end signals]
+[end]

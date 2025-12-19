@@ -1,0 +1,9 @@
+# hades.models.Design file
+#  
+[name] unnamed
+[components]
+hades.models.Design ExtensorBit2 10800 5400 @N 1001 C:/Users/mlpaq/OneDrive/Documentos/AOC1/TP02_MariaLuizaPenaAssisQuint\u00e3o/Componentes/ExtensorBit2.hds
+[end components]
+[signals]
+[end signals]
+[end]
